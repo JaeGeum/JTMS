@@ -1,0 +1,30 @@
+/* Paragraph */
+	.para01 {font-family:'nngb'; font-size:16px; line-height:25px;}
+
+/* Tab Menu */
+	.tabMenu01 {overflow:hidden; border-bottom:1px solid #01215a;}
+	.tabMenu01 li {float:left; text-align:center;}
+	.tabMenu01 li:first-child a, .tabMenu01 li:first-child button {border-left:1px solid white;}
+	.tabMenu01 li a, .tabMenu01 li button {display:block; background:#fafbfc; border-top:3px solid #fafbfc; border-left:1px solid #eaebee; border-right:1px solid #fafbfc; padding:0 18px; font-size:14px; font-family:"nngb"; line-height:39px; color:#787878;}
+	.tabMenu01 li a:hover, .tabMenu01 li button:hover, .tabMenu01 li.on a, .tabMenu01 li.on button {background:white; border-top:3px solid #01215a; border-left:1px solid #01215a; border-right:1px solid #01215a; color:#691629;}
+
+	.tabMenu02 {overflow:hidden;}
+	.tabMenu02 li {float:left; background:white; border:1px solid #01215a; margin-left:10px; line-height:20px; text-align:center; color:#01215a;}
+	.tabMenu02 li:first-child {margin-left:0;}
+	.tabMenu02 li a, .tabMenu02 li button {display:block; padding:0 15px;}
+	.tabMenu02 li a:hover, .tabMenu02 li button:hover, .tabMenu02 li.on a, .tabMenu02 li.on button {background:#01215a; color:white;}
+
+/* Title */
+	.tit01 {margin-top:34px; font-size:20px; font-family:'nngb'; color:#303030;}
+	.tit02 {margin:17px 0 0 17px; font-size:16px; font-family:'nngb'; color:#666;}
+
+/* Pagination */
+	.brdPaging {text-align:center;}
+	.brdPaging a {display:inline-block; border:1px solid #ccc; width:31px; line-height:27px; text-align:center;}
+	.brdPaging a:hover, .brdPaging a.on {background:#01215a; border:1px solid #01215a; font-family:"nngb"; color:white;}
+	.brdPaging a.prevnext {border:none; width:auto; margin:0 12px; font-family:"nngb"; color:#666;}
+	.brdPaging a.prevnext:hover {color:#666;}
+
+/* Progress Bar */
+	.prgBar {border:1px solid black; margin-top:20px; padding:20px; font-size:20px; text-align:center;}
+	.prgBar .grpWrap .grp {background:#01215a; height:40px; margin-top:10px;}

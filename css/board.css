@@ -1,0 +1,53 @@
+/* Board Search */
+	.brdTop {overflow:hidden; border-top:1px solid #01215a; margin-top:15px; padding-top:15px;}
+	.brdTop:first-child {margin-top:0;}
+	.brdTot {float:left; font-size:14px;}
+	.brdSch {overflow:hidden; float:right;}
+	.brdSch li {float:left; border-left:1px solid #ccc; padding:0 15px;}
+	.brdSch li:first-child {border-left:0;}
+
+/* Gallery List */
+	.brdGal {overflow:hidden; margin:0 0 0 -11px;}
+	.brdGal li {float:left; width:160px; margin:30px 0 0 11px;}
+	.brdGal li .thumb {display:block; background:white; border:1px solid #1c262f; height:192px; text-align:center;}
+	.brdGal li .thumb span {display:inline-block; height:100%; vertical-align:middle;}
+	.brdGal li .thumb img {max-width:160px; max-height:192px; vertical-align:middle;}
+	.brdGal li .tit {margin:10px 0;}
+
+	.brdGal.type01 {margin-top:-30px;}
+	.brdGal.type01 li {width:98px;}
+	.brdGal.type01 li .thumb {height:98px;}
+	.brdGal.type01 li .thumb img {max-width:98px; max-height:98px;}
+	.brdGal.type01 .btn {width:100%; margin-top:10px;}
+
+	.brdGal.type02 {margin-top:-20px;}
+	.brdGal.type02 li {width:185px;}
+	.brdGal.type02 .file {display:none;}
+	.brdGal.type02 .upload {margin-top:10px;}
+	.brdGal.type02 .upload input {width:149px; height:19px;}
+
+/* Board List Table */
+	.brdList {background:white; border-top:2px solid #666; border-bottom:1px solid #ccc; margin-top:14px; text-align:center;}
+	.brdList * {vertical-align:middle;}
+	.brdList > thead > tr > th {border-bottom:1px solid #ccc; height:41px; font-family:"ë‹ì›€"; font-family:"nngb";  font-size:13px; line-height:16px; vertical-align:middle; color:#333;}
+	.brdList > tbody > tr > td, .brdList > tfoot > tr > td, .brdList > tfoot > tr > th {border-top:1px solid #eee; height:41px; padding:10px 0; font-size:13px; line-height:24px; vertical-align:middle; color:#787878;}
+	.brdList > tbody > tr:first-child > td {border-top:none;}
+	.brdList > tbody > tr > td a {border-bottom:1px solid #0645ad; color:#0645ad;}
+	.brdList > tbody > tr > td a:hover {font-family:"nngb"; color:#303030;}
+	/*.brdList td.notice {background: url("../images/adc/icon/icon_notice.gif") center no-repeat; padding-top:3px; font-family:"ë‹ì›€"; font-size:11px; text-align:center; color:white;}
+	.brdList td.new a {background: url("../images/adc/icon/icon_n.gif") right center no-repeat; padding-right:11px;}*/
+	.brdList a.elips {height:24px;}
+	.brdList .view > td {padding:20px;}
+	.brdList .view > td .tabCon {text-align:left;}
+
+/* Data Table */
+	.tblData {background:white; border-top:1px solid #dedede; margin-top:10px; font-size:13px; line-height:18px; text-align:center; word-wrap:break-word;}
+	.tblData:first-child {margin-top:0;}
+	.tblData > thead th, .tblData > tbody th {background:#f3f3f3; border-left:none; padding:12px 0; vertical-align:middle;}
+	.tblData > thead th, .tblData > tfoot th {background: url("../images/board/bg_thbdr.gif") left center no-repeat #f3f3f3; font-family:'nngb';}
+	.tblData > tfoot th {padding:11px 15px;}
+	.tblData > tbody th {border-left:1px solid #dedede;}
+	.tblData > thead th:first-child, .tblData > tfoot th:first-child, .tblData > tbody th:first-child {background:#f3f3f3; border-left:none;}
+	.tblData td {border-left:1px solid #dedede; padding:11px 15px; color:#333;}
+	.tblData td:first-child {border-left:none;}
+	.tblData tr {border-bottom:1px solid #dedede;}

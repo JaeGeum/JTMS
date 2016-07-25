@@ -1,0 +1,41 @@
+/* Header */
+	#header .headerTop {background:#01215a;}
+	#header .headerTopIn {width:1024px; height:77px; margin:0 auto;}
+	#header .headerTopIn h1 {float:left; line-height:77px;}
+	#header .headerTopIn h1 a {font-family:'nngb'; font-size:24px; text-transform:uppercase; color:white;}
+	#header .headerTopIn .gnb {float:right; position:relative; margin-top:30px;}
+	#header .headerTopIn .gnb > li {float:left; height:51px;}
+	#header .headerTopIn .gnb > li:first-child > a {border-left:0;}
+	#header .headerTopIn .gnb > li > a {display:block; border-left:1px solid #8090aa; padding:0 12px; font-family:'nngb'; font-size:14px; color:white;}
+	#header .headerTopIn .gnb > li ul {overflow:hidden; display:none; position:absolute; left:0; top:15px; width:120px; background:#01215a; padding:10px;}
+	#header .headerTopIn .gnb > li.on {background: url("../images/icon/icon_gnbOver.gif") center bottom no-repeat;}
+	#header .headerTopIn .gnb > li.on ul {display:block;}
+	#header .headerTopIn .gnb > li ul li {float:left;}
+	#header .headerTopIn .gnb > li ul a {display:block; border-left:1px solid white; padding:0 10px; color:white;}
+	#header .headerTopIn .gnb > li ul li:first-child a {border-left:none;}
+
+
+	#header .headerFoot {overflow:hidden; background:#d2d4d3;}
+	#header .headerFoot .headerFootIn {overflow:hidden; width:838px; margin:0 auto; padding-left:186px; line-height:25px;}
+	#header .headerFoot .headerFootIn .usrInfo {overflow:hidden; background: url("../images/icon/icon_chk.gif") no-repeat; float:left; margin-top:3px; line-height:19px;}
+	#header .headerFoot .headerFootIn .usrInfo li {float:left; padding:0 10px; color:#01215a;}
+	#header .headerFoot .headerFootIn .usrInfo li:first-child {padding-left:28px;}
+	#header .headerFoot .headerFootIn .usrInfo li span {color:#e50e47;}
+	#header .headerFoot .headerFootIn .usrDetail {float:right; font-size:12px;color:#36332e;}
+	#header .headerFoot .headerFootIn .usrDetail .logInOut {display:inline-block; background:white; border:1px solid #cbcbcb; border-bottom:1px solid #b1b1b1; margin-left:15px; padding:0 6px; font-family:'Dotum'; font-size:11px; line-height:16px; color:#6d6d6d;}
+
+/* Footer */
+	#footer {background:#d2d4d3;}
+	#footer .footerIn {overflow:hidden; width:1019px; margin:0 auto; padding:35px 0;}
+	#footer .footerIn .footerLeft {float:left;}
+	#footer .footerIn .footerLeft .txt01 {font-size:15px;}
+	#footer .footerIn .footerLeft .txt02 {margin-top:8px; font-family:'nngb'; font-size:21px; color:#002762;}
+	#footer .footerIn .footerLeft .txt03 {margin-top:13px; font-size:12px; line-height:15px; color:#1d1f1e;}
+	#footer .footerIn .footerLeft .txt03 span {color:#002762;}
+	#footer .footerIn .footerRight {float:right; font-size:12px; line-height:18px; text-align:right; color:#282a29;}
+
+/* Layout */
+	.whiteBox {background:white;}
+	.whiteBoxIn {width:1018px; margin:0 auto; padding:15px 0;}
+	.grayBox {background:#f7f6f4;}
+	.grayBoxIn {width:1018px; margin:0 auto; padding:15px 0;}

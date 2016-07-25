@@ -1,0 +1,69 @@
+/*! jQuery UI - v1.12.0 - 2016-07-21
+* http://jqueryui.com
+* Includes: core.css, datepicker.css
+* Copyright jQuery Foundation and other contributors; Licensed MIT */
+
+.ui-helper-hidden{display:none}.ui-helper-hidden-accessible{border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.ui-helper-reset{margin:0;padding:0;border:0;outline:0;line-height:1.3;text-decoration:none;font-size:100%;list-style:none}.ui-helper-clearfix:before,.ui-helper-clearfix:after{content:"";display:table;border-collapse:collapse}.ui-helper-clearfix:after{clear:both}.ui-helper-zfix{width:100%;height:100%;top:0;left:0;position:absolute;opacity:0;filter:Alpha(Opacity=0)}.ui-front{z-index:100}.ui-state-disabled{cursor:default!important;pointer-events:none}.ui-icon{display:inline-block;vertical-align:middle;margin-top:-.25em;position:relative;text-indent:-99999px;overflow:hidden;background-repeat:no-repeat}.ui-widget-icon-block{left:50%;margin-left:-8px;display:block}.ui-widget-overlay{position:fixed;top:0;left:0;width:100%;height:100%}.ui-datepicker{width:17em;padding:.2em .2em 0;display:none}.ui-datepicker .ui-datepicker-header{position:relative;padding:.2em 0}.ui-datepicker .ui-datepicker-prev,.ui-datepicker .ui-datepicker-next{position:absolute;top:2px;width:1.8em;height:1.8em}.ui-datepicker .ui-datepicker-prev-hover,.ui-datepicker .ui-datepicker-next-hover{top:1px}.ui-datepicker .ui-datepicker-prev{left:2px}.ui-datepicker .ui-datepicker-next{right:2px}.ui-datepicker .ui-datepicker-prev-hover{left:1px}.ui-datepicker .ui-datepicker-next-hover{right:1px}.ui-datepicker .ui-datepicker-prev span,.ui-datepicker .ui-datepicker-next span{display:block;position:absolute;left:50%;margin-left:-8px;top:50%;margin-top:-8px}.ui-datepicker .ui-datepicker-title{margin:0 2.3em;line-height:1.8em;text-align:center}.ui-datepicker .ui-datepicker-title select{font-size:1em;margin:1px 0}.ui-datepicker select.ui-datepicker-month,.ui-datepicker select.ui-datepicker-year{width:45%}.ui-datepicker table{width:100%;font-size:.9em;border-collapse:collapse;margin:0 0 .4em}.ui-datepicker th{padding:.7em .3em;text-align:center;font-weight:bold;border:0}.ui-datepicker td{border:0;padding:1px}.ui-datepicker td span,.ui-datepicker td a{display:block;padding:.2em;text-align:right;text-decoration:none}.ui-datepicker .ui-datepicker-buttonpane{background-image:none;margin:.7em 0 0 0;padding:0 .2em;border-left:0;border-right:0;border-bottom:0}.ui-datepicker .ui-datepicker-buttonpane button{float:right;margin:.5em .2em .4em;cursor:pointer;padding:.2em .6em .3em .6em;width:auto;overflow:visible}.ui-datepicker .ui-datepicker-buttonpane button.ui-datepicker-current{float:left}.ui-datepicker.ui-datepicker-multi{width:auto}.ui-datepicker-multi .ui-datepicker-group{float:left}.ui-datepicker-multi .ui-datepicker-group table{width:95%;margin:0 auto .4em}.ui-datepicker-multi-2 .ui-datepicker-group{width:50%}.ui-datepicker-multi-3 .ui-datepicker-group{width:33.3%}.ui-datepicker-multi-4 .ui-datepicker-group{width:25%}.ui-datepicker-multi .ui-datepicker-group-last .ui-datepicker-header,.ui-datepicker-multi .ui-datepicker-group-middle .ui-datepicker-header{border-left-width:0}.ui-datepicker-multi .ui-datepicker-buttonpane{clear:left}.ui-datepicker-row-break{clear:both;width:100%;font-size:0}.ui-datepicker-rtl{direction:rtl}.ui-datepicker-rtl .ui-datepicker-prev{right:2px;left:auto}.ui-datepicker-rtl .ui-datepicker-next{left:2px;right:auto}.ui-datepicker-rtl .ui-datepicker-prev:hover{right:1px;left:auto}.ui-datepicker-rtl .ui-datepicker-next:hover{left:1px;right:auto}.ui-datepicker-rtl .ui-datepicker-buttonpane{clear:right}.ui-datepicker-rtl .ui-datepicker-buttonpane button{float:left}.ui-datepicker-rtl .ui-datepicker-buttonpane button.ui-datepicker-current,.ui-datepicker-rtl .ui-datepicker-group{float:right}.ui-datepicker-rtl .ui-datepicker-group-last .ui-datepicker-header,.ui-datepicker-rtl .ui-datepicker-group-middle .ui-datepicker-header{border-right-width:0;border-left-width:1px}.ui-datepicker .ui-icon{display:block;text-indent:-99999px;overflow:hidden;background-repeat:no-repeat;left:.5em;top:.3em}
+
+/* Datepicker Customizing */
+/* Calendar */
+	.ui-datepicker {background:white; border:1px solid #999; margin-top:10px; padding:10px;}
+	.ui-datepicker-prev {left:24px !important; background: url("../images/ui/btn_lArrow.gif") no-repeat;}
+	.ui-datepicker-next {right:15px !important; background: url("../images/ui/btn_rArrow.gif") no-repeat;}
+	.ui-datepicker-year {font-family:'nngb'; font-size:17px; color:#686868;}
+	.ui-datepicker-month {font-family:'nngb'; font-size:23px; color:#686868;}
+	.ui-datepicker-header {padding-bottom:13px;}
+	.ui-datepicker th {background:#f3f3f3; border:none !important; padding:0 !important; font-size:9px; color:#848484;}
+	.ui-datepicker th.ui-datepicker-week-end {background:#fbeaea !important; color:#d32d2f;}
+	.ui-datepicker th:last-child {background:#ecf3fa !important; color:#2f8ccc;}
+	.ui-state-default {text-align:center !important;}
+	.ui-datepicker a {font-family:"verdana" !important; font-size:12px; line-height:18px;}
+	.ui-datepicker td.ui-datepicker-week-end a {color:#d32d2f;}
+	.ui-datepicker td.ui-datepicker-week-end:last-child a {color:#2f8ccc;}
+	.ui-datepicker-trigger {position:absolute; right:5px; top:5px;}
+
+/* 탭메뉴 UI 기본 */
+	.tabMenuWrap .tabMenu li button {width:100%;}
+	.tabMenuWrap .tabConWrap .tabCon {display:none; padding:20px 0;}
+	.tabMenuWrap .tabConWrap .tabCon.on {display:block;}
+
+/* 레이어 팝업 */
+	.lyPop {display:none; position:fixed; left:0; top:0; bottom:0; right:0; background: url("../images/bg/bg_shadow.png"); z-index:10;}
+	.lyPop.on {display:block;}
+	.lyCon {position:fixed; left:50%; top:50%; width:700px; max-height:90%;}
+	.lyConIn {overflow:hidden; position:relative; background:white; width:100%; max-height:90%;}
+	.lyPopTit {position:absolute; left:0; top:0; right:0; background:#01215a; padding:0 10px; font-family:'nngb'; font-size:16px; line-height:40px; color:white;}
+	.lyConIn .btnX {position:absolute; right:10px; top:10px; font-family:'nngb'; font-size:16px; color:white;}
+	.lyConWrap {overflow-y:auto; max-height:90%; padding:60px 20px 20px;}
+
+	.lyPop.type01 .lyCon {width:400px;}
+	.lyPop.type01 .lyConIn {height:auto;}
+	.lyPop.type01 .lyConWrap {top:0; height:auto; padding:60px 20px 20px;}
+
+/* 레이어 팝업 내용 커스터마이징 */
+	.lyPop .btnMedium {margin-top:0 !important; padding:0; text-align:center;}
+	.lyPop .btnArea {margin-top:10px;}
+	.lyPop .btnArea td {padding:3px;}
+
+/* Board Acodian */
+	.tblAco .view {display:none;}
+	.tblAco .view.on {display:table-row;}
+
+/* Board List n View */
+	.acoLst {background:white; border-top:2px solid #3b4a61; border-bottom:1px solid #afafaf; margin-top:10px;}
+	.acoLst dt {border-top:1px solid #dcdcdc; line-height:42px;}
+	.acoLst dt button {overflow:hidden; display:block; width:100%; height:42px; padding:0 12px; text-align:left; font-size:15px;}
+	.acoLst dt .btnaco {float:right; display:inline-block; background: url("../images/ui/btn_acolst.gif") left center no-repeat; padding:4px 23px 7px 9px; font-family:'nng'; font-size:12px;}
+	.acoLst dd {display:none; position:relative; border-top:1px dashed #c6c6c6; border-bottom:1px solid #6b8ac5; margin-bottom:-1px; padding:21px; z-index:1;}
+	.acoLst .tit02 {margin-left:0;}
+	.acoLst textarea {width:100%; margin-top:10px;}
+
+	/* on */
+		.acoLst dt.on {background:#e7edf6; border-top:1px solid #6b8ac5;}
+		.acoLst dt.on button {font-family:'nngb';}
+		.acoLst dt.on .btnaco {background: url("../images/ui/btn_acolst_on.gif") left center no-repeat;}
+		.acoLst dd.on {display:block;}
+
+/* tr Add / Del */
+	.tblAddDel .trAdd, .liAddDel .liAdd {background: url("../images/ui/btn_plus.gif") left center no-repeat; width:28px; height:25px; text-indent:-1000em;}
+	.tblAddDel .trDel, .liAddDel02 .liDel {background: url("../images/ui/btn_minus.gif") left center no-repeat; width:28px; height:25px; text-indent:-1000em;}

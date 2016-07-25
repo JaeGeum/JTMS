@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="ko">
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta charset="utf-8">
+		<meta name="description" content="JMS">
+		<title>JMS</title>
+		<link rel="stylesheet" href="path.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="jquery.mCustomScrollbar.css" type="text/css" media="screen" />
+		<script src="common.js"></script>
+		<script src="path.js"></script>
+	</head>
+	<body>
+		<div id="header">
+			<h1><a href="index.html">JMS</a></h1>
+			<p class="proc">진행률 (<span class="num">0</span>%)</p>
+		</div>
+		<div id="container">
+			<div class="btns">
+				<button type="button" class="btn_guide" data-src="../sub/sub_layout.php">서브레이아웃</button>
+				<div class="language">
+					<button type="button">공통</button>
+					<button type="button">통상114</button>
+					<!--<button type="button">소매</button>-->
+				</div>
+
+				<!--<div id="responsive">
+					<button type="button" id="btn_mobile" data-width="337">320</button>
+					<button type="button" id="btn_mobile" data-width="657">640</button>
+					<button type="button" id="btn_mobile" data-width="1024">1024</button>
+					<button type="button" id="btn_desktop" data-width="1297">1280</button>
+					<button type="button" id="btn_full" data-width="100%">100%</button>
+				</div>-->
+			</div>
+			<div id="menu">
+				<div class="menu_in">
+					<ul>
+						<!--<li><a href="../login.php" data-date="">로그인</a></li>
+						<li><a href="../index.php" data-date="">대시보드</a></li>
+						<li>
+							<a href="" data-date="">퀵링크</a>
+							<ul>
+								<li><a href="../sub/" data-date="">결제 및 시세</a></li>
+								<li><a href="../sub/" data-date="">금 결제</a></li>
+								<li><a href="../sub/" data-date="">업체별 거래 내역</a></li>
+								<li><a href="../sub/" data-date="">주얼리 지도</a></li>
+								<li><a href="../sub/" data-date="">시세 전광판</a></li>
+							</ul>
+						</li>-->
+						<li>
+							<a href="" data-date="">카타로그</a>
+							<ul>
+								<li class="com"><a href="../sub/cdlgLGal.jsp" data-date="[2016-07-20] am12:32">[공장] 카다로그 (갤러리형)</a></li>
+								<li class="com"><a href="../sub/cdlgLGal02.jsp" data-date="[2016-07-25] pm03:17">[소매] 카다로그 (갤러리형)</a></li>
+								<li class="com"><a href="../sub/colWM.jsp" data-date="[2016-07-25] pm04:57">[공장] 등록/수정</a></li>
+								<!--<li><a href="../sub/cdlMW.jsp" data-date="[2016-07-20] am01:49">상세</a></li>-->
+								
+								<!--<li><a href="../sub/cdlgL.php" data-date="[2016-07-20] am01:27">카다로그 (리스트형)</a></li>
+								-->
+							</ul>
+						</li>
+						<!--<li class="com"><a href="../sub/stoneMngL.php" data-date="[2016-07-21] pm09:17">스톤관리</a></li>
+						<li>
+							<a href="" data-date="">재고관리</a>
+							<ul>
+								<li class="com"><a href="../sub/stockMngL.php" data-date="[2016-07-21] pm09:27">재고관리</a></li>
+								<li class="com"><a href="../sub/stockMngV.php" data-date="[2016-07-21] pm09:30">재고상세</a></li>
+								<li><a href="../sub/" data-date="">재고현황</a></li>
+								<li class="com"><a href="../sub/stockStatV.php" data-date="[2016-07-21] pm09:50">재질별 재고현황 상세</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="" data-date="">주문관리</a>
+							<ul>
+								<li class="com"><a href="../sub/orderStatL.php" data-date="[2016-07-22] am12:22">주문현황</a></li>
+								<li><a href="../sub/" data-date="">주문상세정보</a></li>
+								<li class="com"><a href="../sub/stockV.php" data-date="[2016-07-22] am12:34">재고보기</a></li>
+								<li class="com"><a href="../sub/stockMngV.php" data-date="[2016-07-21] pm09:30">제품상세정보</a></li>
+							</ul>
+						</li>
+						<li class="com"><a href="../sub/relRepL.php" data-date="[2016-07-22] am01:30">출고현황</a></li>
+						<li>
+							<a href="../sub/" data-date="">배송관리</a>
+							<ul>
+								<li class="ing"><a href="../sub/deliveryRelL.php" data-date="">배달출고</a></li>
+								<li class="ing"><a href="../sub/deliveryStoL.php" data-date="">배달입고</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="" data-date="">판매관리</a>
+							<ul>
+								<li class="ing"><a href="../sub/salesTbl.php" data-date="">판매현황</a></li>
+								<li class="com"><a href="../sub/modelSalesTbl.php" data-date="[2016-07-22] am01:59">모델별 판매현황</a></li>
+								<li class="com"><a href="../sub/daySalesTbl.php" data-date="[2016-07-22] am01:54">일별 판매현황</a></li>
+								<li class="com"><a href="../sub/monSalesTbl.php" data-date="[2016-07-22] am01:55">월별 판매현황</a></li>
+							</ul>
+						</li>
+						<li class="ing"><a href="../sub/whMngLef.php" data-date="">입고관리</a></li>
+						<li class="ing"><a href="../sub/as.php" data-date="">A/S현황</a></li>
+						<li class="ing"><a href="../sub/takeBackCon.php" data-date="">반품현황</a></li>
+						<li class="ing"><a href="../sub/customerMng.php" data-date="">거래처관리</a></li>-->
+						<li>
+							<a href="" data-date="">시스템관리</a>
+							<ul>
+								<li class="ing"><a href="../sub/personMng.php" data-date="">사원관리</a></li>
+								<li><a href="../sub/" data-date="">권한관리</a></li>
+								<li><a href="../sub/" data-date="">매장관리</a></li>
+							</ul>
+						</li>
+					</ul>
+					<ul>
+						<li>
+							<a href="" data-date="">유통관리</a>
+							<ul>
+								<li><a href="../sub/" data-date="">유통현황</a></li>
+								<li><a href="../sub/" data-date="">유통현황</a></li>
+								<li class="ing"><a href="../sub/distrMng.php" data-date="">유통관리 (지방 -> 총판)</a></li>
+								<li class="ing"><a href="../sub/currShip.php" data-date="">출하현황 (지방 -> 총판)</a></li>
+								<li class="ing"><a href="../sub/distrMng02.php" data-date="">유통관리 (총판 -> 지방)</a></li>
+								<li class="ing"><a href="../sub/currShip02.php" data-date="">출하현황 (총판 -> 지방)</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="" data-date="">입고관리</a>
+							<ul>
+								<li class="com"><a href="../sub/whMngLef02.php" data-date="[2016-07-22] pm02:16">입고관리</a></li>
+								<li><a href="../sub/" data-date="">입고제품 상세정보</a></li>
+								<li class="ing"><a href="../sub/whTbl.php" data-date="">입고현황</a></li>
+							</ul>
+						</li>
+						<li><a href="../sub/relMng.php" data-date="">출고관리</a></li>
+					</ul>
+				</div>
+			</div>
+			<div id="view">
+				<a href="" id="link" target="_blank">화면 새창 링크</a>
+				<div class="view_wrap"><iframe src="main.html" class="view_in" title="작업 화면">화면 (Ajax처리)</iframe></div>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,46 @@
+/* Button */
+	.btn {display:inline-block; font-size:14px;}
+	.btnArea {margin-top:22px;}
+	.btnArea a, .btnArea button {margin-left:10px;}
+	.btnArea a:first-child, .btnArea button:first-child {margin-left:0;}
+	table.btnArea .btn {width:100%;}
+
+/* Button Size */
+	.btnSmall {padding:0 13px; font-size:13px; line-height:28px;}
+	.btnSmall02 {font-size:11px; line-height:23px;}
+	.btnMedium {padding:0 23px; line-height:38px;}
+	.btnBig {line-height:58px;}
+
+/* Button Width */
+	.btn50 {width:50%;}
+
+/* Button Color */
+	.btnOrange {background:#db8843; border:1px solid #db8843; color:white;}
+	.btnBlue {background:#00216e; border:1px solid #00216e; color:white !important;}
+	.btnGreen {background:#466800; border:1px solid #466800; color:white;}
+	.btnWhite {background:white; border:1px solid #a6a6a6; color:#828282;}
+	.btnGray {background:#8d8d8d; border:1px solid #8d8d8d; color:white;}
+	.btnLightgray {background:#eee; border:1px solid #d7d7d7; color:#303030;}
+
+/* Table Form */
+	.tblForm {border:1px solid #ccc; margin-top:10px;}
+	.tblForm > tbody > tr > th {background:#868fa0; padding:5px; vertical-align:middle; color:white;}
+	.tblForm > tbody > tr > td {position:relative; padding:5px !important;}
+	.tblForm > tbody > tr > td td {position:relative; padding:0 3px;}
+	.tblForm > tbody > tr > td td * {vertical-align:middle;}
+	.tblForm > tbody > tr > td td:first-child {padding-left:0;}
+	.tblForm > tbody > tr > td td:last-child {padding-right:0;}
+	.tblForm select {width:100%; height:25px;}
+	.tblForm input {width:98%; height:18px;}
+	.tblForm .btn {width:100%; text-align:center;}
+
+	.tblForm.type02 {margin-top:0;}
+	.tblForm.type02, .tblForm.type02 th, .tblForm.type02 td, .tblForm.type02 tr {border:none;}
+
+
+	form .tblData td {text-align:left;}
+	.tblData select {width:100%; height:25px;}
+	.tblData input {width:98%; height:18px;}
+
+/* Form */
+	input[readonly="readonly"] {background:#ccc; border:1px solid #ccc;}

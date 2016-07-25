@@ -1,0 +1,126 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	font-size: 13px;
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+@font-face {
+	font-family: 'nngb';
+	font-style: normal;
+	font-weight: 700;
+	src: url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v3/NanumGothic-Bold.eot);
+	src: url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v3/NanumGothic-Bold.eot?#iefix) format('embedded-opentype'),
+		url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v3/NanumGothic-Bold.woff2) format('woff2'),
+		url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v3/NanumGothic-Bold.woff) format('woff'),
+		url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v3/NanumGothic-Bold.ttf) format('truetype');
+}
+@font-face {
+	font-family: 'nng';
+	font-style: normal;
+	font-weight: 400;
+	src: url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v3/NanumGothic-Regular.eot);
+	src: url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v3/NanumGothic-Regular.eot?#iefix) format('embedded-opentype'),
+		url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v3/NanumGothic-Regular.woff2) format('woff2'),
+		url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v3/NanumGothic-Regular.woff) format('woff'),
+		url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v3/NanumGothic-Regular.ttf) format('truetype');
+}
+
+/* common */
+/*html {height:100%;}*/
+body {background:#eee; font-family:"nng"; font-size:12px;}
+a {text-decoration:none; color:#555;}
+table {table-layout:fixed; border-collapse:collapse; width:100%;}
+select, button {font-family:"nng"; font-size:12px;}
+button {background:none; border:0; margin:0; padding:0; font-family:"nng"; cursor:pointer;}
+textarea {font-family:"nng";}
+button img {display:block;}
+legend {overflow:hidden; position:absolute; left:-1000%; height:0;}
+input {font-family:"nng"; font-size:12px;}
+img {vertical-align:top;}
+caption {overflow:hidden; height:0; text-indent:-1000em;}
+
+/* Accessbility */
+#skipnavigation {position:relative;}
+#skipnavigation a {position:absolute; top:0; left:-100%; background:black; width:100%; line-height:20px; color:#fff;}
+#skipnavigation a:hover, #skipnavigation a:focus {left:0; text-align:center; z-index:99;}
+.acc {position:absolute; left:-100%; width:0;}
+.acc table {table-layout:auto; width:0;}
+
+/* Align */
+.ac {text-align:center !important;}
+.ar {text-align:right;}
+.al {text-align:left;}
+.fl {float:left;}
+.fr {float:right;}
+.vt * {vertical-align:top;}
+.vm, .vm * {vertical-align:middle;}
+
+/* Gap */
+.mt00 {margin-top:0 !important;}
+.mt02 {margin-top:2px !important;}
+.mt20 {margin-top:20px;}
+
+/* Font */
+.bold {font-weight:'nngb';}
+
+.tdu {text-decoration:underline;}
+.ttu {text-transform:uppercase;}
+
+.fcPnk {color:#d90073;}
+strong {color:#e50e47;}
+
+/* Temp */
+.of, .elips {overflow:hidden;}
+.clfix:after {content:""; display:block; height:0px; clear:both; visibility:hidden;}
+* html .clfix {height:1%;} /* Hides from IE-mac */
+.clfix {*zoom:1;} /*for IE 5.5-7*/
+.blind {visibility:hidden; overflow:hidden; position:absolute; top:0; left:0; width:0; height:0; font-size:0; line-height:0;}
+
+.guide_tit {margin-top:30px; font-size:30px; color:black;}
+.guide_tit:first-child {margin-top:0;}
+.guide_txt {margin-top:10px; font-size:16px; color:#555;}
+.guide_box {background:white;border-radius:3px; box-shadow:1px 1px 3px #3f3f3f inset, -1px -1px 3px #3f3f3f inset, -1px 1px 3px #3f3f3f inset, 1px -1px 3px #3f3f3f inset; margin:20px -25px 0; padding:20px;}
